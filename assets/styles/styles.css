@@ -13,10 +13,14 @@
 .topBar-container {
     margin-bottom: 10px;
 }
+.video-title {
+    margin-top: 0;
+}
 
 .video-info {
     display: inline-block; /* Make the video info inline-block */
     vertical-align: top; /* Align the video info to the top */
+    margin-top: 5px;
 }
 
 .video-icon {
