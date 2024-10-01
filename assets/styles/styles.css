@@ -1,40 +1,7 @@
-:root {
-    /* Color Palette */
-    --primary-color: #3498db;       /* Main brand color */
-    --secondary-color: #2ecc71;     /* Accent color */
-    --background-color: #f5f5f5;    /* Background color */
-    --text-color: #333;             /* Main text color */
-    --muted-color: #777;            /* Muted or secondary text color */
-    --border-color: #ddd;           /* Border color */
-    --error-color: #e74c3c;         /* Error or alert color */
-    --success-color: #2ecc71;       /* Success message color */
-
-    /* Typography */
-    --font-family-sans: robto;
-    --font-family-serif: 'Georgia', serif;
-    --font-size-base: 16px;         /* Base font size */
-    --font-size-large: 1.25rem;     /* Large text */
-    --font-size-small: 0.875rem;    /* Small text */
-    --font-weight-normal: 400;      /* Normal weight */
-    --font-weight-bold: 700;        /* Bold weight */
-
-    /* Spacing */
-    --spacing-small: 8px;           /* Small margin/padding */
-    --spacing-medium: 16px;         /* Medium margin/padding */
-    --spacing-large: 32px;          /* Large margin/padding */
-
-    /* Border Radius */
-    --border-radius: 5px;           /* Global border radius */
-    --border-radius-large: 10px;    /* Larger border radius */
-
-    /* Shadows */
-    --box-shadow-light: 0 1px 3px rgba(0, 0, 0, 0.1);
-    --box-shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --box-shadow-heavy: 0 10px 20px rgba(0, 0, 0, 0.2);
-
-
-    /* Z-Index */
-    --z-index-dropdown: 1000;
-    --z-index-modal: 1050;
-    --z-index-tooltip: 1100;
+.thumbnail {
+    width: 300px;
+}
+.video-author,
+.video-title {
+    display: inline-block;
 }
