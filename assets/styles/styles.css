@@ -1,3 +1,7 @@
+p {
+    font-family: Roboto, Arial;
+    margin: 0;
+}
 .video-container {
     width: 300px;
     margin-right: 15px;
@@ -15,12 +19,31 @@
 }
 .video-title {
     margin-top: 0;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-bottom: 0;
 }
-
+.video-author
+{
+    font-size: 14px;
+    color: #606060;
+    margin-top: 10px;
+}
+.video-stats {
+    font-size: 14px;
+    color: #606060;
+    margin-top: 5px;
+}
+.no-style-link {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color from the parent element (in this case, the same color as the <p> text) */
+  }
+  
 .video-info {
     display: inline-block; /* Make the video info inline-block */
     vertical-align: top; /* Align the video info to the top */
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .video-icon {
@@ -31,7 +54,7 @@
 
 .channel-pic {
     border-radius: 50%; /* Use percentage for a perfect circle */
-    width: 100%; /* Icon width */
+    width: 40px; /* Icon width */
     vertical-align: top; /* Ensure the channel pic aligns at the top */
 }
 
