@@ -13,3 +13,27 @@
 .topBar-container {
     margin-bottom: 10px;
 }
+
+.video-info {
+    display: inline-block; /* Make the video info inline-block */
+    vertical-align: top; /* Align the video info to the top */
+}
+
+.video-icon {
+    display: inline-block; /* Keep the icon inline */
+    width: 50px; /* Icon width */
+    vertical-align: top; /* Align the icon to the top */
+}
+
+.channel-pic {
+    border-radius: 50%; /* Use percentage for a perfect circle */
+    width: 100%; /* Icon width */
+    vertical-align: top; /* Ensure the channel pic aligns at the top */
+}
+
+.video-right-info {
+    display: inline-block; /* Keep it inline */
+    width: 200px; /* Optional: fixed width */
+    vertical-align: top; /* Align the text info to the top */
+}
+    
