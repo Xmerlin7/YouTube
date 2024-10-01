@@ -1,5 +1,7 @@
 .video-container {
     width: 300px;
+    margin-right: 15px;
+    vertical-align: top;
     display: inline-block;
 }
 .thumbnail{
@@ -7,4 +9,7 @@
 }
 .topBar-container{
     display: block;
+}
+.topBar-container {
+    margin-bottom: 10px;
 }
