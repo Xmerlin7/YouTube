@@ -1,7 +1,10 @@
-.thumbnail {
+.video-container {
+    width: 300px;
+    display: inline-block;
+}
+.thumbnail{
     width: 300px;
 }
-.video-author,
-.video-title {
-    display: inline-block;
+.topBar-container{
+    display: block;
 }
