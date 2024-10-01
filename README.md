@@ -1,2 +1,2 @@
 # YouTube
-A static version of youtube.com
+A static clone of youtube.com
