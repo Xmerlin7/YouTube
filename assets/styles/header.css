@@ -1,8 +1,8 @@
 .header {
     display: flex;
     flex-direction: row;
-    margin: 0;
     height: 50px;
+    margin: 0;
     justify-content: space-between;
 }
 .right-content{
@@ -18,10 +18,18 @@
     max-width: 500px;
 }
 .left-content{
-    width: 150px;
+    display: flex;
+    align-items: center;
 }
-.humberger,
+.humberger
+{
+    height: 25px;
+    padding-bottom: 5px;
+}
 .youtube
 {
-    height: 20px;
+    height: 22px;
+    margin-left: 25px;
+    margin-right: 20px;
+    padding-bottom: 5px;
 }
