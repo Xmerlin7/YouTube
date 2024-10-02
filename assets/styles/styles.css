@@ -2,14 +2,15 @@ p {
     font-family: Roboto, Arial;
     margin: 0;
 }
-.video-container {
-    width: 300px;
-    margin-right: 15px;
-    vertical-align: top;
-    display: inline-block;
+.videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }
+
 .thumbnail{
-    width: 300px;
+    width: 100%;
 }
 .topBar-container{
     display: block;
@@ -41,9 +42,10 @@ p {
   }
   
 .video-info {
-    display: inline-block; /* Make the video info inline-block */
+    
     vertical-align: top; /* Align the video info to the top */
     margin-top: 10px;
+    
 }
 
 .video-icon {
