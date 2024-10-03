@@ -20,10 +20,7 @@
     align-items: center;
 
 }
-.left-content{
-    display: flex;
-    align-items: center;
-}
+
 .humberger
 {
     height: 25px;
@@ -68,7 +65,25 @@
     width: 40px;
     border-radius: 1000px;
     border: none;
-    margin-left: 10px;
+    margin-left: 30px;
     border-color: rgb(161, 161, 161);
 
+}
+.left-content{
+    display: flex;
+    flex-shrink: 0;
+    width: 180px;
+    padding-right: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.create {
+    height: 24px;
+}
+.apps {
+    height: 24px;
+}
+.noti {
+    height: 35px;
+    border-radius: 12px;
 }
