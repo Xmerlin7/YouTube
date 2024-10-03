@@ -12,10 +12,12 @@
 }
 
 .mid-content{
-    flex: 1;
+    display: flex;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
+    align-items: center;
+
 }
 .left-content{
     display: flex;
@@ -32,4 +34,22 @@
     margin-left: 25px;
     margin-right: 20px;
     padding-bottom: 5px;
+}
+.search-engine {
+    flex: 1;
+    height: 34px;
+}
+.search-button {
+    height: 40px;
+    width: 60px;
+    background-color: lightcoral;
+
+}
+.mic {
+    height: 40px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: red;
+    margin-left: 10px;
+
 }
