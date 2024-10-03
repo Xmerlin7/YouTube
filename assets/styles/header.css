@@ -13,6 +13,7 @@
 
 .mid-content{
     display: flex;
+    flex: 1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
@@ -37,19 +38,37 @@
 }
 .search-engine {
     flex: 1;
-    height: 34px;
+    height: 38px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(161, 161, 161);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.search-engine::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
 }
 .search-button {
     height: 40px;
     width: 60px;
-    background-color: lightcoral;
-
+    background-color: rgb(38, 38, 38);
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: rgb(161, 161, 161);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    margin-left: -2px;
 }
 .mic {
     height: 40px;
-    width: 60px;
-    border-radius: 50px;
-    background-color: red;
+    width: 40px;
+    border-radius: 1000px;
+    border: none;
     margin-left: 10px;
+    border-color: rgb(161, 161, 161);
 
 }
