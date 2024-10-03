@@ -38,12 +38,7 @@
     color: inherit; /* Inherits the color from the parent element (in this case, the same color as the <p> text) */
   }
   
-.video-info {
-    
-    vertical-align: top; /* Align the video info to the top */
-    margin-top: 10px;
-    
-}
+
 
 .video-icon {
     display: inline-block; /* Keep the icon inline */
@@ -51,15 +46,20 @@
     vertical-align: top; /* Align the icon to the top */
 }
 
+.video-info {
+    display: flex; /* Flexbox layout */
+    align-items: flex-start; /* Aligns the items at the top */
+}
+
 .channel-pic {
-    border-radius: 50%; /* Use percentage for a perfect circle */
-    width: 40px; /* Icon width */
-    vertical-align: top; /* Ensure the channel pic aligns at the top */
+    border-radius: 50%; /* For a circular image */
+    width: 40px; /* Fixed width for the icon */
+    flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
 .video-right-info {
-    display: inline-block; /* Keep it inline */
-    width: 200px; /* Optional: fixed width */
-    vertical-align: top; /* Align the text info to the top */
+    flex: 1; /* Take up the remaining space */
+    padding-left: 10px; /* Add some spacing between the icon and the text */
 }
+
     
