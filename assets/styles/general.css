@@ -2,3 +2,8 @@ p {
     font-family: Roboto, Arial;
     margin: 0;
 }
+
+body{
+    padding-top: 64px;
+    
+}
